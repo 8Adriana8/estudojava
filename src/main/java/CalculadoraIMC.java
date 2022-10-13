@@ -20,7 +20,7 @@ public class CalculadoraIMC {
         double imc = peso / Math.pow(altura, 2);
 
         System.out.println("Olá, meu nome é " + nome + " e tenho " + idade + " anos ! ");
-        System.out.println("Este é o seu IMC = " + imc); // ln pula ima linha
+        System.out.println("Este é o seu IMC = " + imc); // ln pula uma linha
         System.out.printf("Este é o seu IMC = %.2f \n ", imc); // esse %.2f ele mostra com 2 casas decimais //print f nao pula linha. Se quiser pular coloque \n
         System.out.printf("Olá, meu nome é %s e tenho %d anos e meu IMC é \n", nome, idade);
 

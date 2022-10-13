@@ -5,7 +5,7 @@ public class EstudoArrays {
         int[] numeros = {1, 2, 3, 4, 5}; //nunca vai poder guardar string, pq é int. No array classico nao tem cmo adicionar valores. Consigo alterar valores mas nao adicionar ou diminuir.
 
         for(int i = 0; i < numeros.length; i++) { // o i vai do 0 ao 4. A posicao inicial é 0. nesse tem 4 posicoes.
-            System.out.println("Aposição " + i + "com valor de " + numeros[i]);
+            System.out.println("A posição " + i + "com valor de " + numeros[i]);
         System.out.println(numeros.length); //tamanho do array
         numeros[3] = 1000; //substitui
         // System.out.println(numeros[3]); // pegar array na posicao 3
