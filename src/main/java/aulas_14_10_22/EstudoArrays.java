@@ -1,3 +1,5 @@
+package aulas_14_10_22;
+
 import java.util.Scanner;
 
 public class EstudoArrays {

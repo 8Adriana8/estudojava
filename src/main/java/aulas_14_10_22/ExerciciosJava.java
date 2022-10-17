@@ -1,3 +1,5 @@
+package aulas_14_10_22;
+
 public class ExerciciosJava {
 
 }
@@ -22,11 +24,14 @@ public class ExerciciosJava {
  *
  * 5) Criar programa java que lê N e depois N valores armazenado no array, em seguida retorna a soma total e a média dos valores.
  *
+ *
+ *
  * 2a lista de exercicios:
  *
  * Lista de Exercícios – Linguagem C#
  * Dica: Utilizar comentários durante a construção do código fonte.
  * Nível 1: Entrada, Processamento e Saída
+ *
  * 1) Faça um programa para calcular o estoque médio de uma peça, sendo que:
  * ESTOQUE MÉDIO = (QUANTIDADE_MÍNIMA + QUANTIDADE_MÁXIMA) / 2.
  * 2) Faça um programa que:
@@ -52,6 +57,7 @@ public class ExerciciosJava {
  * Tendo o valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a
  * fórmula: LITROS_USADOS = DISTANCIA / 12. O programa deve apresentar os valores da velocidade média,
  * tempo gasto, a distância percorrida e a quantidade de litros utilizada na viagem. Dica: trabalhe com valores reais.
+ *
  * 6) Ler uma temperatura em graus Celsius e apresentá-Ia convertida em graus Fahrenheit. A fórmula de conversão de
  * temperatura a ser utilizada é F = (9 * C + 160) / 5, em que a variável F representa é a temperatura em graus
  * Fahrenheit e a variável C representa é a temperatura em graus Celsius.
@@ -67,6 +73,8 @@ public class ExerciciosJava {
  * entre eles. Os relacionamentos possíveis são: Igual, Não igual, Maior, Menor, Maior ou igual, Menor ou igual.
  *
  * LPE – C# - UNIP – Ciência da Computação/Sistema de Informação - 2010 Página 2
+ *
+ *
  * Nível 2: Estruturas Condicionais
  * 11) Ler dois valores inteiros para as variáveis A e B, efetuar a troca dos valores de modo que a variável A passe a
  * possuir o valor da variável B, e a variável B passe a possuir o valor da variável A. Apresentar os valores trocados.
@@ -105,6 +113,10 @@ public class ExerciciosJava {
  * resultado.
  *
  * LPE – C# - UNIP – Ciência da Computação/Sistema de Informação - 2010 Página 3
+ *
+ *
+ *
+ *
  * Nível 3: Estrutura de Seleção
  * 23) Escreva um programa que exiba as seguintes opções e realize os que se pede em cada uma delas:
  * 1 – Adição
@@ -198,6 +210,8 @@ public class ExerciciosJava {
  * Obs.: Nas opções 3 e 4 informar se o usuário está acima ou abaixo do peso ideal.
  *
  * LPE – C# - UNIP – Ciência da Computação/Sistema de Informação - 2010 Página 5
+ *
+ *
  * Nível 5: Vetores e Matrizes
  * 45) Dada uma seqüência de n números (vetor de inteiros), imprimi-la na ordem inversa que foi realizada a leitura.
  * 46) Dados dois vetores x e y, ambos com n elementos, determinar o produto escalar desses vetores. Ou seja, realizar

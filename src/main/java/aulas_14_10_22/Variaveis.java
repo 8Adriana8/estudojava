@@ -1,3 +1,5 @@
+package aulas_14_10_22;
+
 public class Variaveis {
     //execucao do nosso programa JAVA.Tem q escrever dentro das chaves.
     public static void main(String[] args) {
