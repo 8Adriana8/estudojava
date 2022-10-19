@@ -23,14 +23,29 @@ public class PessoaTeste {
 
         Pessoa pessoa4 = new Pessoa("Pedro", "Gomes", 35, 1.75, 30.5);
 
-        Pessoa recemNascido = new Pessoa("Enzo", "Pereira");
-        System.out. println(recemNascido.altura);
+        Pessoa pessoa5 = new Pessoa("Carlos", "José", 22, 1.9, 77.0);
 
+        Pessoa recemNascido = new Pessoa("Enzo", "Pereira");
+
+        System.out. println(recemNascido.altura);
+        recemNascido.idade++; // envelhecer
+        recemNascido.dizOla();
+
+        // Chamada de métodos
         pessoa4.dizOla();
         pessoa4.mostrarImc();
         double imcPessoa4 = pessoa4.calculaImc();
         System.out.println(imcPessoa4);
 
+        pessoa4.comer("batata");
 
+        //Exemplo pessoas
+        Pessoa pedro = new Pessoa("Carlos", "Carlos", 30, 1.80, 70);
+        Pessoa joao = new Pessoa("Joao", "Mane", 28, 1.70, 88);
+
+        //pedro.addPessoaNova(joao); isso daria mtos bugs no meu codigo. forcando uma passagem
+        pedro.cumprimentar(joao);
+        pedro.cumprimentar(joao);
+        pedro.comer("batata");
     }
 }
